@@ -1,6 +1,6 @@
 // Copyright [2020] <Tiago de Souza Fernandes>
-#ifndef ROMANO_HPP_INCLUDED
-#define ROMANO_HPP_INCLUDED
+#ifndef MP_T2_ROMANO_HPP_
+#define MP_T2_ROMANO_HPP_
 
 #include <stdexcept>
 #include <iostream>
@@ -8,4 +8,4 @@
 
 int ConvertRomanToArabic(std::string roman_number);
 
-#endif
+#endif  // MP_T2_ROMANO_HPP_
