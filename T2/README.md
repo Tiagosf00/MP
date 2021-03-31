@@ -8,3 +8,6 @@ O cpplint foi utilizado para checar o padrão de codificação. O cpplint reclam
 Como eu não estou utilizando essa biblioteca, optei por utilizar a biblioteca padrão regex.
 
 O cppcheck foi utilizado para identificar erros, assim como o valgrind.
+
+Foram realizados 3011 testes utilizando o framework catch.
+O programa relata um warning quando compilado, por conta da implementação do catch utilizada (baixei o arquivo catch_amalgamated.hpp diretamente do repositório oficial)
