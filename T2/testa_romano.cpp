@@ -4,19 +4,10 @@
 #include <string>
 #include "romano.hpp"
 
-int main(){
+#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
+#include "catch_amalgamated.hpp"
 
-    std::cout << ConvertRomanToArabic("teste") << std::endl;
-    std::cout << ConvertRomanToArabic("testeerrado") << std::endl;
-
-
-
-
-
-
-
-
-
-
-    return 0;
+TEST_CASE( "Numbers were converted" ) {
+    REQUIRE( ConvertRomanToArabic("teste") == 1 );
+    REQUIRE( ConvertRomanToArabic("testesoqnao") == 0 );
 }
