@@ -1,4 +1,4 @@
-# Implementação estática e dinâmica de uma pilha (estrutura de dados).
+# Implementação estática e dinâmica de uma pilha
 
 Tiago de Souza Fernandes - 18/0131818
 
