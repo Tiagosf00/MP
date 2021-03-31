@@ -9,17 +9,17 @@
 
 TEST_CASE( "Numbers were converted" ) {
     // Wrong tests
-    // REQUIRE( ConvertRomanToArabic("MMMI") == -1 );
-    // REQUIRE( ConvertRomanToArabic("i") == -1 );
-    // REQUIRE( ConvertRomanToArabic("XXXX") == -1 );
-    // REQUIRE( ConvertRomanToArabic("xxx") == -1 );
-    // REQUIRE( ConvertRomanToArabic("VV") == -1 );
-    // REQUIRE( ConvertRomanToArabic("VX") == -1 );
-    // REQUIRE( ConvertRomanToArabic("IIII") == -1 );
-    // REQUIRE( ConvertRomanToArabic("testealeatorio") == -1 );
-    // REQUIRE( ConvertRomanToArabic("123456") == -1 );
-    // REQUIRE( ConvertRomanToArabic("monitor_preciso_de_nota_ajuda_nois") == -1 );
-    // REQUIRE( ConvertRomanToArabic("r6538t4hs6rh?#$%SDH") == -1 );
+    REQUIRE( ConvertRomanToArabic("MMMI") == -1 );
+    REQUIRE( ConvertRomanToArabic("i") == -1 );
+    REQUIRE( ConvertRomanToArabic("XXXX") == -1 );
+    REQUIRE( ConvertRomanToArabic("xxx") == -1 );
+    REQUIRE( ConvertRomanToArabic("VV") == -1 );
+    REQUIRE( ConvertRomanToArabic("VX") == -1 );
+    REQUIRE( ConvertRomanToArabic("IIII") == -1 );
+    REQUIRE( ConvertRomanToArabic("testealeatorio") == -1 );
+    REQUIRE( ConvertRomanToArabic("123456") == -1 );
+    REQUIRE( ConvertRomanToArabic("monitor_preciso_de_nota_ajuda_nois") == -1 );
+    REQUIRE( ConvertRomanToArabic("r6538t4hs6rh?#$SDH") == -1 );
 
     // All the right tests
     REQUIRE( ConvertRomanToArabic("I") == 1 );
