@@ -5,14 +5,14 @@
 #include <regex>
 #include "romano.hpp"
 
-// Valida uma string representando um número romano.
+
+// Valida um número em algarismos romanos utilizando expressões regulares.
 bool Validate(std::string roman_number) {
-    // Using regular expression to validate the string.
     std::regex e("^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$");
     return (std::regex_match(roman_number, e));
 }
 
-// Converte algarismos romanos em algarismos arábico.
+// Converte algarismos romanos em algarismos arábicos.
 int ConvertRomanToArabic(std::string roman_number) {
     const int INVALID = -1;  // constante de erro
     const int MAXSIZE = 30;  // constante de tamanho máximo
