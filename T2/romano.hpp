@@ -6,9 +6,6 @@
 #include <iostream>
 #include <string>
 
-// bool Validate(string value);
-
-int ConvertRomanToArabic(std::string value);
-
+int ConvertRomanToArabic(std::string roman_number);
 
 #endif

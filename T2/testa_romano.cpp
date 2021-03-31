@@ -6,7 +6,8 @@
 
 int main(){
 
-	std::cout << ConvertRomanToArabic("test") << std::endl;
+    std::cout << ConvertRomanToArabic("teste") << std::endl;
+    std::cout << ConvertRomanToArabic("testeerrado") << std::endl;
 
 
 
@@ -17,5 +18,5 @@ int main(){
 
 
 
-	return 0;
+    return 0;
 }
